@@ -14,7 +14,7 @@ public class Main {
         HashSet<Integer> numSet = new HashSet<>(nums2);
         nums2 = new ArrayList<>(numSet);
         Collections.sort(nums2);
-        System.out.println(nums2 );
+        System.out.println(nums2);
         //***********************
         List<String> strings = new ArrayList<>(List.of("один", "два", "два", "три", "три", "три"));
         int count = 1;
